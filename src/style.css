@@ -173,3 +173,14 @@ html, body {
     transition: all 0.4s;
     transform: scale(1.06)
 }
+
+
+@media screen and (max-width: 768px) {
+    .container .header span {
+        font-size: 13px;
+    }
+    .container .footer a, .container .footer p{
+        font-size: 12px;
+    }
+
+}
